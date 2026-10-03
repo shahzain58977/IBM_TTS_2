@@ -1,0 +1,10 @@
+version: 3.0.3-dirty
+apkFileName: app.apk
+sdkInfo:
+  minSdkVersion: 23
+doNotCompress:
+- arsc
+- png
+- so
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
